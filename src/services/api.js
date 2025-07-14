@@ -1,4 +1,5 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = "https://jobtracker-backend-35w2.onrender.com/api";
+
 
 // Create axios-like functionality
 const apiRequest = async (method, url, data = null, headers = {}) => {
